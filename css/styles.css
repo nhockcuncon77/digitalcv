@@ -1,0 +1,197 @@
+*{
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+}
+
+.cv-document {
+	box-sizing: border-box;
+	border: none;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	font-family: arial, sans-serif, tahoma;
+	font-size: 10pt;
+}
+
+.cv-page {
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+    width: 900px;
+    min-height: 900px;
+    margin: 0 auto;
+    box-shadow: 0 0 1px rgba(0,0,0,.5);
+    background-color: #fff;
+    position: relative;
+
+    padding: 40px
+}
+
+/* .row-info{
+    display: flex;
+    padding: 3px 0;
+}
+
+.row-info > b{
+    width: 100px;
+} */
+/* CSS general */
+.section{
+    margin-bottom: 40px;
+}
+
+.section-title{
+    padding-bottom: 5px;
+    border-bottom: 2px solid black;
+}
+/* set info */ 
+.row-info {
+    padding: 3px 0;
+}
+.row-info > b {
+    width: 100px;
+    display: inline-block;
+}
+
+#info{
+    position: relative;
+}
+#info img {
+    position: absolute;
+    width: 113px;
+    height: 113px;
+    right: 0;
+}
+#info h1 {
+    color: #0e2452;
+    border-bottom: none;
+}
+/* Set row */
+.row {
+    display: flex;
+    gap: 30px;
+    border-bottom: 0.2px solid grey;
+    margin-bottom: 10px;
+}
+
+.normal-text {
+    padding-left: 67px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.col-fun{
+    width: 120px;
+    display: inline-block;
+}
+
+/* Making pseudo for ul li */
+.timeline ul li{
+    content: "";
+    position: relative;
+    margin: 0;
+    padding-bottom: 1em;
+    padding-left: 20px;
+    height: 100%;
+}
+/* .timeline ul::before{
+    content: "";
+    background-color: #c5c5c5;
+    position: absolute;
+    bottom: 0px;
+    top: 0px;
+    left: 11px;
+    width: 1px;
+}
+
+.timeline ul li::after{
+    content: "";
+    background: black;
+    border: 0.1875em solid black;
+    border-radius: 50%;
+    position: absolute;
+    left: -18px;
+    top: 6px;
+    height: 2px;
+    width: 2px;
+} */
+
+.my-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .my-list li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .my-list li:first-child:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px; /* adjust this value as needed to control the length of the line */
+    height: 150px;
+    border-left: 1px solid #000; /* adjust the color and style of the line as needed */
+  }
+
+  .my-list li::after{
+    content: "";
+    background: black;
+    border: 0.3em solid black;
+    border-radius: 50%;
+    position: absolute;
+    left: -2px;
+    top: 6px;
+    height: 2px;
+    width: 2px;
+}
+
+.my-list-2 {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .my-list-2 li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .my-list-2 li:first-child:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px; /* adjust this value as needed to control the length of the line */
+    height: 220px;
+    border-left: 1px solid #000; /* adjust the color and style of the line as needed */
+  }
+
+  .my-list-2 li::after{
+    content: "";
+    background: black;
+    border: 0.3em solid black;
+    border-radius: 50%;
+    position: absolute;
+    left: -2px;
+    top: 6px;
+    height: 2px;
+    width: 2px;
+}
+
+
